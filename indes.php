@@ -29,7 +29,7 @@
 
 		<div class="form-group">
 
-			<label for="username">ادخل اسمك</label>
+			<label for="username">Enter your name</label>
 			<input type="text" name="username" id="user" class="form-control">
 		</div>
 
@@ -42,12 +42,12 @@
 
         <div class="form-group">
 
-			<label for="file">اختر صورة</label>
+			<label for="file">select img</label>
 			<input type="file" name="file" id="file" class="form-control" value="moj">
 
 		</div>
        
-		   <input type="submit" name="submit" class="btn btn-success" value="نشر">
+		   <input type="submit" name="submit" class="btn btn-success" value="post">
 		
 	</form>
  
