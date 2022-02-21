@@ -18,7 +18,7 @@
 
    <div class="container">
 
-      <h2 class="text-center text-white bg-dark">صور المعرض </h2>
+      <h2 class="text-center text-white bg-dark">Gallery Photos</h2>
       <br>
         <div class="table-responsive">
 
@@ -83,24 +83,16 @@
                         while ($data = mysqli_fetch_array($val)){
 
                         ?>
-
                         <tr>
-                        
-                        <td><?php echo $data['id'];  ?></td>
-                        <td><?php echo $data['name'];  ?></td>
+                        <td><?php echo $data['id']; ?></td>
+                        <td><?php echo $data['name']; ?></td>
                         <td><?php echo $age;  ?></td>
                         <td><img src="<?php echo $data['imge'];?>"   height=200px width=200px></td>
 
                         </tr>
-
                         <?php
-
-
                         }
-
-
                     }else{
-
                    echo"
                   <script>
                     alert('in this file not png');
@@ -108,25 +100,12 @@
                   </script>
                   
                   ";
-
                 }
-
               }     
-
-             
               ?>
-  
-        
             </tbody>
-         
-          </table >
+          </table>
         </div>
-      
-
-
-      
-
-   </div>
-
+     </div>
 </body>
 </html>
